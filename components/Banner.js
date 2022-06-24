@@ -8,7 +8,7 @@ const Banner = () => {
         </div>
         <div className='contents'>
           <div className='texts'>
-            <h1>Grow your brand with Seller Interactive<span>.</span></h1>
+            <h1>Grow your brand with XpertOpt<span>.</span></h1>
             <p>Take your business to the next level, and let us help you thrive online.</p>
             <a href='mailto:marketing@xpertopt.com'>Schedule a free consultation</a>
           </div>
