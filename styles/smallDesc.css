@@ -1,0 +1,124 @@
+.smallDesc {
+  float: left;
+  width: 100%;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.smallDesc .contents {
+  float: left;
+  width: 50%;
+}
+
+.smallDesc .contents h1 {
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+}
+
+.smallDesc .contents h1 span {
+  color: #2562BA;
+}
+
+.smallDesc .contents p {
+  font-size: 18px;
+  color: grey;
+}
+
+.smallDesc .image {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  float: left;
+  width: 50%;
+  padding: 0px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.smallDesc .image .top {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: -1;
+}
+
+.smallDesc .image .top img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: 22vw !important;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+}
+
+.smallDesc .image .bottom {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: -1;
+}
+
+.smallDesc .image .bottom img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: 14vw !important;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+}
+
+.smallDesc .image img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: 45vw !important;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 1190px) {
+  .smallDesc {
+    padding: 20px;
+    display: block;
+  }
+  .smallDesc .contents {
+    width: 100%;
+  }
+  .smallDesc .contents h1 {
+    font-size: 32px;
+  }
+  .smallDesc .image {
+    display: none;
+  }
+}
+/*# sourceMappingURL=smallDesc.css.map */

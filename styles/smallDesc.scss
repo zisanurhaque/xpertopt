@@ -1,0 +1,99 @@
+// $dropdownHeaderColor: #fb3767;
+$primaryColor: #2562BA;
+
+
+.smallDesc{
+    float: left;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contents{
+        float: left;
+        width: 50%;
+
+        h1{
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            font-size: 38px;
+            span{
+                color: $primaryColor;
+            }
+        }
+        p{
+            font-size: 18px;
+            color: grey;
+        }
+    }
+
+    .image{
+        height: max-content;
+        float: left;
+        width: 50%;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .top{
+            position: absolute;
+            top: -50px;
+            left: 0;
+            width: max-content;
+            height: max-content;
+            z-index: -1;
+            img{
+                object-fit: contain !important;
+                width: 22vw !important;
+                height: max-content !important;
+            }
+
+        }
+
+        .bottom{
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: max-content;
+            height: max-content;
+            z-index: -1;
+            img{
+                object-fit: contain !important;
+                width: 14vw !important;
+                height: max-content !important;
+            }
+
+        }
+
+        img{
+            object-fit: contain !important;
+            width: 45vw !important;
+            height: max-content !important;
+            border-radius: 10px !important;
+        }
+    }
+
+}
+
+@media screen and (max-width: '1190px'){
+    .smallDesc{
+        padding: 20px;
+        display: block;
+    
+        .contents{
+            width: 100%;
+    
+            h1{
+                font-size: 32px;
+            }
+        }
+    
+        .image{
+            display: none;
+        }
+    
+    }
+}

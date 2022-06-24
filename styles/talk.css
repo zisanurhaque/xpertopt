@@ -1,0 +1,107 @@
+.talkToUs {
+  float: left;
+  width: 100%;
+  padding: 100px;
+}
+
+.talkToUs .contents {
+  float: left;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85vw;
+  height: 400px;
+  color: white;
+}
+
+.talkToUs .contents h1 {
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  font-size: 38px;
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.talkToUs .contents p {
+  font-size: 18px;
+  width: 50%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.talkToUs .contents a {
+  padding: 12px 30px;
+  color: #2562BA;
+  text-decoration: none;
+  background: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.talkToUs img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: 90vw !important;
+  height: 400px !important;
+  background: #2562BA;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .talkToUs {
+    padding: 20px;
+  }
+  .talkToUs .contents {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 85vw;
+    height: 500px;
+    color: white;
+  }
+  .talkToUs .contents h1 {
+    font-size: 28px;
+    width: 80%;
+  }
+  .talkToUs .contents p {
+    width: 80%;
+  }
+  .talkToUs .contents a {
+    width: 75%;
+    text-align: center;
+  }
+  .talkToUs img {
+    height: 500px !important;
+  }
+}
+/*# sourceMappingURL=talk.css.map */

@@ -1,0 +1,68 @@
+import Brand from './Brand'
+import TopMenu from './TopMenu'
+import MainMenu from './MainMenu'
+import ContactMenu from './ContactMenu'
+import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+
+const Header = () => {
+
+  const [menuToggle, setMenuToggle] = useState(false)
+
+  useEffect(() => {
+      window.addEventListener("scroll", () => {
+        if(!window.scrollY < 1){
+          document.querySelector('.sticky').style.cssText = `
+            box-shadow: 0px 0px 5px 0px rgb(206, 206, 206);
+            position: absolute;
+            background: white;
+          `
+        }else{
+          document.querySelector('.sticky').style.cssText = `
+            box-shadow: unset;
+            position: unset;
+            background: none;
+          `
+        }
+      })
+  }, [])
+
+  return (
+    <>
+        
+        <div className='headerContainer'>
+
+          <TopMenu/>
+
+          <div className='header webHeader sticky'>
+              <Brand/>
+              <MainMenu/>
+              <ContactMenu/>
+          </div>
+
+          {
+            menuToggle ? 
+              <div className='header'>
+                <button className='toggler' onClick={() => setMenuToggle(false)}>
+                  <FontAwesomeIcon icon={faClose} />
+                </button>
+                  <Brand/>
+                  <MainMenu/>
+                  <ContactMenu/>
+              </div>:
+              <div className="mobileHeader">
+                  <div className='mobileMenu'>
+                    <Brand/>
+                    <button className='toggler' onClick={() => setMenuToggle(true)}>
+                    <FontAwesomeIcon icon={faBars} /></button>
+                  </div>
+              </div>
+          }
+        </div>
+        
+    </>
+  )
+}
+
+export default Header

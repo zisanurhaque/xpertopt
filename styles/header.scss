@@ -1,0 +1,355 @@
+// $dropdownHeaderColor: #fb3767;
+$primaryColor: #2562BA;
+
+/*
+===========================================
+---------------Header Section--------------
+===========================================
+*/
+
+.headerContainer{
+
+    float: left;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+
+    .webHeader{
+        display: flex;
+        float: left;
+    }
+
+    .sticky{
+        background: none;
+    }
+
+    .mobileHeader{
+        display: none;
+    }
+
+    .topmenu{
+        float: left;
+        padding: 5px 100px;
+        width: 100%;
+
+        .language{
+            float: right;
+            position: relative;
+            width: max-content;
+            height: max-content;
+            display: flex;
+            align-items: center;
+            height: 30px;
+
+            button{
+                float: left;
+                background: none;
+                border: none;
+                font-size: 16px;
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+        
+                svg{
+                    margin-left: 5px;
+                    width: 10px;
+                }
+        
+            }
+    
+            .dropdown{
+                float: left;
+                position: absolute;
+                left: 0;
+                background: white;
+                box-shadow: 0px 0px 5px 0px rgb(235, 235, 235);
+                width: 10vw;
+                padding: 10px;
+                display: none;
+                top: 30px;
+                z-index: 999;
+    
+                button{
+                    float: left;
+                    cursor: pointer;
+                }
+            }
+        }:hover .dropdown{
+            display: block;
+        }
+    
+    }
+    
+    .header{
+        float: left;
+        width: 100%;
+        height: 55px;
+        padding: 0px 100px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .toggler{
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            border: none;
+            background: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    
+        .brand{
+            float: left;
+            margin-top: 10px;
+        }
+    
+        .menubar{
+            float: left;
+            margin-left: 15px;
+            flex-grow: 1;
+    
+            li{
+
+                list-style-type: none;
+                float: left;
+                position: relative;
+                height: 40px;
+                display: flex;
+                align-items: center;
+
+                a{
+                    color: black;
+                    text-decoration: none;
+                    margin: 0px 10px;
+                    position: relative;
+                    padding: 20px 0px;
+                    float: left;
+                    display: flex;
+                    align-items: center;
+        
+                    svg{
+                        margin-left: 5px;
+                        width: 10px;
+                    }
+                }
+    
+                .dropdown{
+                    float: left;
+                    padding: 20px;
+                    background: white;
+                    box-shadow: 0px 0px 5px 0px rgb(235, 235, 235);
+                    position: absolute;
+                    left: 0;
+                    width: 25vw;
+                    border-radius: 10px;
+                    top: 0;
+                    margin-top: 40px;
+                    z-index: 999;
+                    display: none;
+        
+                    h4{
+                        text-align: left;
+                        display: block;
+                        color: $primaryColor;
+                        float: left;
+                        padding: 0px 10px;
+                        margin: 0px;
+                        margin-bottom: 5px;
+                        text-transform: uppercase;
+                    }
+        
+                    .list{
+                        float: left;
+                        padding: 10px;
+                        margin: 0px;
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+        
+                        img{
+                            float: left;
+                        }
+                        
+                        a{
+                            float: left;
+                            padding: 0px;
+                            margin: 0px;
+                            margin-left: 15px;
+                        }
+        
+                    }:hover a{
+                        color: grey;
+                    }
+        
+                }
+            }:hover{
+                color: grey;
+            }
+
+            li:hover .dropdown{
+                display: block;
+            }
+    
+        }
+    
+        .contact-menu{
+            float: left;
+            display: flex;
+            align-items: center;
+    
+            a{
+                text-decoration: none;
+                color: black;
+                float: left;
+                margin: 0px 10px;
+                background: none;
+
+                svg{
+                    margin-right: 5px;
+                    float: left;
+                    width: 15px;
+                }
+
+            }:hover{
+                color: grey;
+            }
+    
+            a.contactBtn{
+                padding: 12px 20px;
+                background: #ddecff;
+                border-radius: 10px;
+                font-weight: 400;
+                color: $primaryColor;
+                transition: .3s;
+            }:hover{
+                color: grey !important;
+            }
+    
+        }
+    
+    }
+}
+
+
+
+@media screen and (max-width: '1190px') {
+    .headerContainer{
+
+        position: relative;
+
+        .webHeader{
+            display: none !important;
+        }
+
+        .topmenu{
+            padding: 5px 20px;
+            .language{
+                .dropdown{
+                    width: 30vw;
+                    right: 0;
+                }
+            }
+        }
+
+        .mobileHeader{
+            float: left;
+            width: 100%;
+            display: flex;
+            padding: 0px 10px;
+            position: relative;
+
+            .brand{
+                float: left;
+            }
+
+            .toggler{
+                position: absolute;
+                border: none;
+                background: none;
+                cursor: pointer;
+                float: left;
+                right: 20px;
+                top: 5px;
+
+                svg{
+                    width: 15px;
+                }
+
+            }
+
+        }
+        .header{
+            top: 0;
+            left: 0;
+            padding: 20px;
+            position: absolute;
+            height: max-content;
+            display: block;
+            width: 100%;
+            z-index: 9999;
+            background: white;
+            float: left;
+
+            .toggler{
+                z-index: 999;
+
+                svg{
+                    width: 15px;
+                }
+            }
+
+        
+            .brand{
+                float: left;
+                margin-top: 10px;
+            }
+        
+            .menubar{
+                float: left;
+                margin-left: unset;
+                width: 100%;
+        
+                li{
+                    float: left;
+                    width: 100%;
+                    height: 50px;
+                    a{
+                        margin: 0px;
+                        padding: 0px;
+                        width: 100%;
+                        float: left;
+                        margin: 0px;
+            
+                        svg{
+                            margin-left: 5px;
+                        }
+                    }
+                }:hover .dropdown{
+                    width: 100%;
+                    padding: 20px 10px;
+                }
+        
+            }
+        
+            .contact-menu{
+                flex-direction: column;
+                width: 100%;
+        
+                a{
+                    width: 100% !important;
+                    margin: 10px 0px;
+    
+                    svg{
+                        margin-right: 5px;
+                        float: left;
+                    }
+    
+                }
+        
+            }
+        
+        }
+    }
+}

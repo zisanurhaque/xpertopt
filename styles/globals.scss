@@ -1,0 +1,23 @@
+// $dropdownHeaderColor: #fb3767;
+$primaryColor: #2562BA;
+
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: bahnschrift;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@import './header.scss';
+@import './banner.scss';
+@import './trusted.scss';
+@import './partners.scss';
+@import './smallDesc.scss';
+@import './testimonials.scss';
+@import './talk.scss';
+@import './footer.scss';

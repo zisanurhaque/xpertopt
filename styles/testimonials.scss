@@ -1,0 +1,117 @@
+// $dropdownHeaderColor: #fb3767;
+$primaryColor: #2562BA;
+
+
+.testimonials{
+    float: left;
+    width: 100%;
+    padding: 50px 100px;
+    background: #f7f9fa;
+    display: flex;
+    justify-content: centere;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-weight: 600;
+        font-size: 42px;
+        font-family: 'Inter', sans-serif;
+
+        span{
+            color: $primaryColor;
+        }
+    }
+
+    .container{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+
+        .control-arrow{
+            display: none;
+        }
+        .carousel-status{
+            display: none;
+        }
+
+        .card{
+            float: left;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h2{
+                font-size: 28px;
+                font-family: 'Inter', sans-serif;
+                color: grey;
+            }
+            p{
+                font-size: 20px;
+                color: grey;
+                font-weight: 300;
+            }
+
+            .details{
+                float: left;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h4{
+                    padding: 0px;
+                    margin: 0px;
+                    float: left;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 18px;
+                    padding: 0px;
+                    margin: 0px;
+                    float: left;
+                    font-weight: 400;
+                    margin-top: 5px;
+                }
+                .logo{
+                    width: max-content;
+                    height: max-content;
+                    float: left;
+                    img{
+                        width: 100% !important;
+                        height: max-content !important;
+                        float: left;
+                        object-fit: contain !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: '1190px'){
+    .testimonials{
+        padding: 20px;
+    
+        h1{
+            font-size: 32px;
+            text-align: center;
+        }
+    
+        .container{
+    
+            .card{
+                padding: 0px;
+                margin-bottom: 20px;
+    
+                h2{
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
