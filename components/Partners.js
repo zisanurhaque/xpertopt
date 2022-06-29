@@ -4,7 +4,7 @@ const Partners = () => {
   return (
     <>
         <div className='partners'>
-            <h3>Our Partners</h3>
+            <h6>Our Partners</h6>
             <div className='container'>
                 <div className='logo'>
                     <Image src={"/partners/adobe.webp"} alt={"logo"} width="120px" height="60px"/>

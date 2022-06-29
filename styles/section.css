@@ -1,0 +1,207 @@
+.commonSec {
+  width: 100%;
+  float: left;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commonSec .contents {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.commonSec .contents h3 {
+  padding: 0px;
+  margin: 15px 0px;
+  float: left;
+  font-weight: 600;
+  font-family: "Inter", sans-serif !important;
+}
+
+.commonSec .contents h3 span {
+  color: #2562BA;
+}
+
+.commonSec .contents p {
+  font-size: 18px;
+  color: grey;
+}
+
+.commonSec .image {
+  float: left;
+  width: 50%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.commonSec .image span img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  float: left !important;
+}
+
+.serviceShortDesc {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.serviceShortDesc h3 {
+  width: 60%;
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+}
+
+.serviceShortDesc h3 span {
+  color: #2562BA;
+}
+
+.serviceShortDesc .container {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.serviceShortDesc .container .card {
+  float: left;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.serviceShortDesc .container .card .image {
+  float: left;
+  width: 10%;
+  padding: 10px 0px;
+}
+
+.serviceShortDesc .container .card .contents {
+  width: 90%;
+  float: left;
+  padding: 10px;
+}
+
+.serviceShortDesc .container .card .contents h6 {
+  margin-bottom: 20px;
+}
+
+.serviceShortDesc .container .card .contents p {
+  color: grey;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 900px) {
+  .commonSec {
+    padding: 10px;
+  }
+  .commonSec .contents {
+    width: 100%;
+    padding: 0px;
+  }
+  .commonSec .contents h3 {
+    margin: 15px 0px;
+    font-size: 24px;
+  }
+  .commonSec .contents p {
+    font-size: 18px;
+    color: grey;
+    float: left;
+    width: 100%;
+  }
+  .commonSec .image {
+    display: none;
+  }
+  .serviceShortDesc {
+    padding: 30px 10px;
+  }
+  .serviceShortDesc h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+  }
+  .serviceShortDesc .container {
+    margin: 20px 0px;
+    margin-bottom: 0px;
+  }
+  .serviceShortDesc .container .card {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 0px;
+  }
+  .serviceShortDesc .container .card .image {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .serviceShortDesc .container .card .contents {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .serviceShortDesc .container .card .contents h6 {
+    margin: 10px 0px;
+  }
+  .serviceShortDesc .container .card .contents p {
+    color: grey;
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=section.css.map */

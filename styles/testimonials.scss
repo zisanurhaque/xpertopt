@@ -13,8 +13,6 @@ $primaryColor: #2562BA;
     align-items: center;
 
     h1{
-        font-weight: 600;
-        font-size: 42px;
         font-family: 'Inter', sans-serif;
 
         span{
@@ -41,10 +39,9 @@ $primaryColor: #2562BA;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
 
-            h2{
-                font-size: 28px;
+            h5{
                 font-family: 'Inter', sans-serif;
                 color: grey;
             }
@@ -59,6 +56,8 @@ $primaryColor: #2562BA;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-top: 20px;
+
                 h4{
                     padding: 0px;
                     margin: 0px;
@@ -97,6 +96,7 @@ $primaryColor: #2562BA;
         h1{
             font-size: 32px;
             text-align: center;
+            margin-bottom: 20px;
         }
     
         .container{
@@ -105,8 +105,9 @@ $primaryColor: #2562BA;
                 padding: 0px;
                 margin-bottom: 20px;
     
-                h2{
+                h5{
                     font-size: 22px;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-size: 18px;

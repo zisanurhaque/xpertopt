@@ -1,0 +1,53 @@
+.serviceDesc{
+    width: 100%;
+    float: left;
+    padding: 50px 100px;
+    background: #ddecff;
+    display: flex;
+    justify-content: space-between;
+
+    .card{
+        float: left;
+        padding: 10px;
+        width: 30%;
+
+        h6{
+            font-size: 19px;
+            padding: 10px 0px;
+            margin: 0px;
+        }
+
+        p{
+            padding: 0px;
+            margin: 0px;
+            font-size: 16px;
+        }
+    }
+}
+
+
+@media screen and (max-width: "900px") {
+    .serviceDesc{
+        padding: 20px 10px;
+        display: block;
+    
+        .card{
+            float: left;
+            padding: 20px 0px;
+            width: 100%;
+            text-align: center;
+    
+            h6{
+                font-size: 19px;
+                padding: 10px 0px;
+                margin: 0px;
+            }
+    
+            p{
+                padding: 0px;
+                margin: 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}

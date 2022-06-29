@@ -2,11 +2,10 @@
   float: left;
   width: 100%;
   padding: 100px;
-  padding-bottom: 30px;
   text-align: center;
 }
 
-.trustedBy h3 {
+.trustedBy h6 {
   color: grey;
   font-weight: 400;
 }

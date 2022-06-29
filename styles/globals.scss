@@ -1,16 +1,48 @@
 // $dropdownHeaderColor: #fb3767;
 $primaryColor: #2562BA;
+$font: 'Inter', sans-serif;
 
 *{
     box-sizing: border-box;
 }
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: bahnschrift;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
+  color: rgb(36, 37, 43);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-size: 48px;
+}
+
+h2{
+  font-size: 42px;
+}
+
+h3{
+  font-size: 38px;
+}
+
+h4{
+  font-size: 34px;
+}
+
+h5{
+  font-size: 28px;
+}
+
+h6{
+  font-size: 20px;
 }
 
 @import './header.scss';
@@ -20,4 +52,6 @@ body {
 @import './smallDesc.scss';
 @import './testimonials.scss';
 @import './talk.scss';
+@import './serviceDesc.scss';
+@import './section.scss';
 @import './footer.scss';

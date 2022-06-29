@@ -8,8 +8,38 @@ body {
   padding: 0;
   margin: 0;
   font-family: bahnschrift;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
+  color: #24252b;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 20px;
 }
 
 /*
@@ -192,7 +222,7 @@ body {
   display: none;
 }
 
-.headerContainer .header .menubar li .dropdown h4 {
+.headerContainer .header .menubar li .dropdown h6 {
   text-align: left;
   display: block;
   color: #2562BA;
@@ -389,10 +419,22 @@ body {
 ---------------Banner Section--------------
 ===========================================
 */
+.homeBanner .banner .contents .texts h1 {
+  font-size: 54px;
+}
+
+.homeBanner .banner .contents .texts p {
+  font-size: 20px;
+}
+
+.homeBanner .banner .contents .texts a {
+  padding: 15px 30px;
+}
+
 .banner {
   float: left;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -426,7 +468,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 180px;
+  margin-top: 100px;
   z-index: 1;
 }
 
@@ -437,12 +479,12 @@ body {
 }
 
 .banner .contents .texts h1 {
-  font-size: 54px;
+  font-size: 50px;
   padding: 0px;
   margin: 0px;
   float: left;
-  font-weight: 800;
-  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-family: "Inter", sans-serif !important;
 }
 
 .banner .contents .texts h1 span {
@@ -450,26 +492,27 @@ body {
 }
 
 .banner .contents .texts p {
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
   margin: 30px 0px;
   float: left;
 }
 
 .banner .contents .texts a {
-  padding: 15px 30px;
+  padding: 12px 25px;
   background: #2562BA;
-  border-radius: 10px;
+  border-radius: 8px;
   color: white;
   font-weight: 400;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 17px;
   float: left;
 }
 
 .banner .contents img {
   float: left;
   border-radius: 10px;
+  width: 100% !important;
 }
 
 @media screen and (max-width: 1100px) {
@@ -546,13 +589,13 @@ body {
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   .banner {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    padding: 10px;
+    padding: 80px 20px;
     float: left;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
   }
   .banner .asset {
     float: left;
@@ -575,7 +618,7 @@ body {
   .banner .contents {
     float: left;
     display: block;
-    margin-top: 120px;
+    margin-top: 0px;
     z-index: 1;
     width: 100%;
   }
@@ -585,32 +628,101 @@ body {
     padding: 10px;
   }
   .banner .contents .texts h1 {
-    font-size: 42px;
-    padding: 0px;
-    margin: 0px;
-    float: left;
-    font-weight: 800;
-    font-family: 'Inter', sans-serif;
+    font-size: 34px !important;
     width: 100%;
   }
   .banner .contents .texts h1 span {
     color: #2562BA;
   }
   .banner .contents .texts p {
-    font-size: 20px;
+    font-size: 20px !important;
     color: grey;
-    margin: 30px 0px;
+    margin: 20px 0px;
     float: left;
   }
   .banner .contents .texts a {
-    padding: 15px 30px;
+    padding: 12px 15px !important;
     background: #2562BA;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-weight: 400;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 18px;
     float: left;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    text-align: center !important;
+  }
+  .banner .contents img {
+    float: left;
+    border-radius: 10px;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .banner {
+    padding: 80px 0px;
+    float: left;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+  .banner .asset {
+    float: left;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .banner .asset img {
+    width: 40vw !important;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .banner .contents {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+  .banner .contents .texts {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+  .banner .contents .texts h1 {
+    font-size: 28px !important;
+    width: 100%;
+  }
+  .banner .contents .texts h1 span {
+    color: #2562BA;
+  }
+  .banner .contents .texts p {
+    font-size: 18px !important;
+    color: grey;
+    margin: 20px 0px;
+    float: left;
+  }
+  .banner .contents .texts a {
+    padding: 10px 15px !important;
+    background: #2562BA;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    text-align: center !important;
   }
   .banner .contents img {
     float: left;
@@ -623,11 +735,10 @@ body {
   float: left;
   width: 100%;
   padding: 100px;
-  padding-bottom: 30px;
   text-align: center;
 }
 
-.trustedBy h3 {
+.trustedBy h6 {
   color: grey;
   font-weight: 400;
 }
@@ -715,13 +826,15 @@ body {
 .partners {
   float: left;
   width: 100%;
-  padding: 0px 100px;
+  padding: 50px 100px;
+  padding-top: 0px;
   text-align: center;
 }
 
-.partners h3 {
+.partners h6 {
   color: grey;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .partners .container {
@@ -803,7 +916,7 @@ body {
 .smallDesc {
   float: left;
   width: 100%;
-  padding: 50px 100px;
+  padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -910,7 +1023,7 @@ body {
 
 @media screen and (max-width: 1190px) {
   .smallDesc {
-    padding: 20px;
+    padding: 20px 10px;
     display: block;
   }
   .smallDesc .contents {
@@ -918,6 +1031,7 @@ body {
   }
   .smallDesc .contents h1 {
     font-size: 32px;
+    margin-bottom: 20px;
   }
   .smallDesc .image {
     display: none;
@@ -945,8 +1059,6 @@ body {
 }
 
 .testimonials h1 {
-  font-weight: 600;
-  font-size: 42px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -982,11 +1094,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.testimonials .container .card h2 {
-  font-size: 28px;
+.testimonials .container .card h5 {
   font-family: 'Inter', sans-serif;
   color: grey;
 }
@@ -1009,6 +1120,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 .testimonials .container .card .details h4 {
@@ -1055,13 +1167,15 @@ body {
   .testimonials h1 {
     font-size: 32px;
     text-align: center;
+    margin-bottom: 20px;
   }
   .testimonials .container .card {
     padding: 0px;
     margin-bottom: 20px;
   }
-  .testimonials .container .card h2 {
+  .testimonials .container .card h5 {
     font-size: 22px;
+    margin-bottom: 10px;
   }
   .testimonials .container .card p {
     font-size: 18px;
@@ -1071,7 +1185,7 @@ body {
 .talkToUs {
   float: left;
   width: 100%;
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 .talkToUs .contents {
@@ -1175,10 +1289,271 @@ body {
   }
 }
 
+.serviceDesc {
+  width: 100%;
+  float: left;
+  padding: 50px 100px;
+  background: #ddecff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.serviceDesc .card {
+  float: left;
+  padding: 10px;
+  width: 30%;
+}
+
+.serviceDesc .card h6 {
+  font-size: 19px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.serviceDesc .card p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .serviceDesc {
+    padding: 20px 10px;
+    display: block;
+  }
+  .serviceDesc .card {
+    float: left;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .serviceDesc .card h6 {
+    font-size: 19px;
+    padding: 10px 0px;
+    margin: 0px;
+  }
+  .serviceDesc .card p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+  }
+}
+
+.commonSec {
+  width: 100%;
+  float: left;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commonSec .contents {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.commonSec .contents h3 {
+  padding: 0px;
+  margin: 15px 0px;
+  float: left;
+  font-weight: 600;
+  font-family: "Inter", sans-serif !important;
+}
+
+.commonSec .contents h3 span {
+  color: #2562BA;
+}
+
+.commonSec .contents p {
+  font-size: 18px;
+  color: grey;
+}
+
+.commonSec .image {
+  float: left;
+  width: 50%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.commonSec .image span img {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  float: left !important;
+}
+
+.serviceShortDesc {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.serviceShortDesc h3 {
+  width: 60%;
+  text-align: center;
+  font-family: "Inter", sans-serif !important;
+}
+
+.serviceShortDesc h3 span {
+  color: #2562BA;
+}
+
+.serviceShortDesc .container {
+  float: left;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px 0px;
+  margin-bottom: 0px;
+}
+
+.serviceShortDesc .container .card {
+  float: left;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.serviceShortDesc .container .card .image {
+  float: left;
+  width: 10%;
+  padding: 10px 0px;
+}
+
+.serviceShortDesc .container .card .contents {
+  width: 90%;
+  float: left;
+  padding: 10px;
+}
+
+.serviceShortDesc .container .card .contents h6 {
+  margin-bottom: 20px;
+}
+
+.serviceShortDesc .container .card .contents p {
+  color: grey;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 900px) {
+  .commonSec {
+    padding: 10px;
+  }
+  .commonSec .contents {
+    width: 100%;
+    padding: 0px;
+  }
+  .commonSec .contents h3 {
+    margin: 15px 0px;
+    font-size: 24px;
+  }
+  .commonSec .contents p {
+    font-size: 18px;
+    color: grey;
+    float: left;
+    width: 100%;
+  }
+  .commonSec .image {
+    display: none;
+  }
+  .serviceShortDesc {
+    padding: 30px 10px;
+  }
+  .serviceShortDesc h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+  }
+  .serviceShortDesc .container {
+    margin: 20px 0px;
+    margin-bottom: 0px;
+  }
+  .serviceShortDesc .container .card {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 0px;
+  }
+  .serviceShortDesc .container .card .image {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .serviceShortDesc .container .card .contents {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .serviceShortDesc .container .card .contents h6 {
+    margin: 10px 0px;
+  }
+  .serviceShortDesc .container .card .contents p {
+    color: grey;
+    font-size: 17px;
+  }
+}
+
 .footer {
   width: 100%;
   float: left;
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 .footer .card {

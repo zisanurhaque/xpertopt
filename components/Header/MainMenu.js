@@ -16,20 +16,20 @@ const MainMenu = () => {
                     <FontAwesomeIcon icon={faAngleDown} />
                 </a>
                 <div className='dropdown'>
-                    <h4>
+                    <h6>
                         Amazon Services
-                    </h4>
+                    </h6>
                     <div className='list'>
                         <Image src='/menu/fam.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Full Account Management</a>
+                        <a href='/services/amazon-full-account-management'>Full Account Management</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/seo.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Search Engine Optimization</a>
+                        <a href='/'>Search Engine Optimization (SEO)</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/ppc.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Sponsored Ads Management</a>
+                        <a href='/'>Sponsored Ads Management (PPC)</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/pl.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
@@ -38,6 +38,22 @@ const MainMenu = () => {
                     <div className='list'>
                         <Image src='/menu/lo.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
                         <a href='/'>Listing Optimization</a>
+                    </div>
+                    <div className='list'>
+                        <Image src='/menu/bpa.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
+                        <a href='/'>Brand Protection & Assistance</a>
+                    </div>
+                    <div className='list'>
+                        <Image src='/menu/asp.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
+                        <a href='/'>Account Suspention Appeal & Reinstatement</a>
+                    </div>
+                    <div className='list'>
+                        <Image src='/menu/rf.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
+                        <a href='/'>Reimbursement & Refund</a>
+                    </div>
+                    <div className='list'>
+                        <Image src='/menu/wpp.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
+                        <a href='/'>Wholesale Partnership Program</a>
                     </div>
                 </div>
             </li>

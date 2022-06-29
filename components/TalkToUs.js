@@ -7,7 +7,7 @@ const TalkToUs = () => {
         <div className='talkToUs'>
             <div className='contents'>
                 <h1>
-                    Start thriving and grow your brand with Seller Interactive.
+                    Start thriving and grow your brand with XpertOpt.
                 </h1>
                 <p>
                     Use the power and influence of advertising to increase sales. Learn more about how you can benefit from our management expertise.

@@ -1,13 +1,15 @@
 .partners {
   float: left;
   width: 100%;
-  padding: 0px 100px;
+  padding: 50px 100px;
+  padding-top: 0px;
   text-align: center;
 }
 
-.partners h3 {
+.partners h6 {
   color: grey;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .partners .container {

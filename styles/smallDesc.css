@@ -1,7 +1,7 @@
 .smallDesc {
   float: left;
   width: 100%;
-  padding: 50px 100px;
+  padding: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 1190px) {
   .smallDesc {
-    padding: 20px;
+    padding: 20px 10px;
     display: block;
   }
   .smallDesc .contents {
@@ -116,6 +116,7 @@
   }
   .smallDesc .contents h1 {
     font-size: 32px;
+    margin-bottom: 20px;
   }
   .smallDesc .image {
     display: none;

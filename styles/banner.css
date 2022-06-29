@@ -3,10 +3,22 @@
 ---------------Banner Section--------------
 ===========================================
 */
+.homeBanner .banner .contents .texts h1 {
+  font-size: 54px;
+}
+
+.homeBanner .banner .contents .texts p {
+  font-size: 20px;
+}
+
+.homeBanner .banner .contents .texts a {
+  padding: 15px 30px;
+}
+
 .banner {
   float: left;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +52,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 180px;
+  margin-top: 100px;
   z-index: 1;
 }
 
@@ -51,12 +63,12 @@
 }
 
 .banner .contents .texts h1 {
-  font-size: 54px;
+  font-size: 50px;
   padding: 0px;
   margin: 0px;
   float: left;
-  font-weight: 800;
-  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-family: "Inter", sans-serif !important;
 }
 
 .banner .contents .texts h1 span {
@@ -64,26 +76,27 @@
 }
 
 .banner .contents .texts p {
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
   margin: 30px 0px;
   float: left;
 }
 
 .banner .contents .texts a {
-  padding: 15px 30px;
+  padding: 12px 25px;
   background: #2562BA;
-  border-radius: 10px;
+  border-radius: 8px;
   color: white;
   font-weight: 400;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 17px;
   float: left;
 }
 
 .banner .contents img {
   float: left;
   border-radius: 10px;
+  width: 100% !important;
 }
 
 @media screen and (max-width: 1100px) {
@@ -160,13 +173,13 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   .banner {
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    padding: 10px;
+    padding: 80px 20px;
     float: left;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
   }
   .banner .asset {
     float: left;
@@ -189,7 +202,7 @@
   .banner .contents {
     float: left;
     display: block;
-    margin-top: 120px;
+    margin-top: 0px;
     z-index: 1;
     width: 100%;
   }
@@ -199,32 +212,101 @@
     padding: 10px;
   }
   .banner .contents .texts h1 {
-    font-size: 42px;
-    padding: 0px;
-    margin: 0px;
-    float: left;
-    font-weight: 800;
-    font-family: 'Inter', sans-serif;
+    font-size: 34px !important;
     width: 100%;
   }
   .banner .contents .texts h1 span {
     color: #2562BA;
   }
   .banner .contents .texts p {
-    font-size: 20px;
+    font-size: 20px !important;
     color: grey;
-    margin: 30px 0px;
+    margin: 20px 0px;
     float: left;
   }
   .banner .contents .texts a {
-    padding: 15px 30px;
+    padding: 12px 15px !important;
     background: #2562BA;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-weight: 400;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 18px;
     float: left;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    text-align: center !important;
+  }
+  .banner .contents img {
+    float: left;
+    border-radius: 10px;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .banner {
+    padding: 80px 0px;
+    float: left;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+  .banner .asset {
+    float: left;
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .banner .asset img {
+    width: 40vw !important;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .banner .contents {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+  .banner .contents .texts {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+  .banner .contents .texts h1 {
+    font-size: 28px !important;
+    width: 100%;
+  }
+  .banner .contents .texts h1 span {
+    color: #2562BA;
+  }
+  .banner .contents .texts p {
+    font-size: 18px !important;
+    color: grey;
+    margin: 20px 0px;
+    float: left;
+  }
+  .banner .contents .texts a {
+    padding: 10px 15px !important;
+    background: #2562BA;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    text-align: center !important;
   }
   .banner .contents img {
     float: left;

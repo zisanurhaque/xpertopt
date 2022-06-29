@@ -5,7 +5,7 @@ $primaryColor: #2562BA;
 .smallDesc{
     float: left;
     width: 100%;
-    padding: 50px 100px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +80,7 @@ $primaryColor: #2562BA;
 
 @media screen and (max-width: '1190px'){
     .smallDesc{
-        padding: 20px;
+        padding: 20px 10px;
         display: block;
     
         .contents{
@@ -88,6 +88,7 @@ $primaryColor: #2562BA;
     
             h1{
                 font-size: 32px;
+                margin-bottom: 20px;
             }
         }
     

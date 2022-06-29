@@ -5,7 +5,7 @@ const TrustedBy = () => {
   return (
     <>
         <div className='trustedBy'>
-            <h3>Trusted by brands around the world</h3>
+            <h6>Trusted by brands around the world</h6>
             <div className='container'>
                 <div className='logo'>
                     <Image 

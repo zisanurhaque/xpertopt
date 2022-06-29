@@ -1,0 +1,203 @@
+$primaryColor: #2562BA;
+$font: 'Inter', sans-serif !important;
+
+.commonSec{
+    width: 100%;
+    float: left;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contents{
+        float: left;
+        width: 50%;
+        padding: 10px;
+
+        h3{
+            padding: 0px;
+            margin: 15px 0px;
+            float: left;
+            font-weight: 600;
+            font-family: $font;
+            span{
+              color: $primaryColor;
+            }
+        }
+
+        p{
+            font-size: 18px;
+            color: grey;
+        }
+
+
+    }
+
+    .image{
+        float: left;
+        width: 50%;
+        height: max-content;
+        position: relative;
+        float: left;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px;
+
+        span{
+
+            img{
+                object-fit: contain !important;
+                width: max-content !important;
+                padding: 0px !important;
+                margin: 0px !important;
+                float: left !important;
+            }
+
+        }
+
+    }
+
+}
+
+
+.serviceShortDesc{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    flex-direction: column;
+
+    h3{
+        width: 60%;
+        text-align: center;
+        font-family: $font;
+
+        span{
+            color: $primaryColor;
+        }
+    }
+
+    .container{
+        float: left;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 50px 0px;
+        margin-bottom: 0px;
+
+        .card{
+            float: left;
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0px;
+
+            .image{
+                float: left;
+                width: 10%;
+                padding: 10px 0px;
+            }
+
+            .contents{
+                width: 90%;
+                float: left;
+                padding: 10px;
+
+                h6{
+                    margin-bottom: 20px;
+                }
+
+                p{
+                    color: grey;
+                    font-size: 17px;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: "900px"){
+    .commonSec{
+        padding: 10px;
+    
+        .contents{
+            width: 100%;
+            padding: 0px;
+    
+            h3{
+                margin: 15px 0px;
+                font-size: 24px;
+            }
+    
+            p{
+                font-size: 18px;
+                color: grey;
+                float: left;
+                width: 100%;
+            }
+    
+    
+        }
+    
+        .image{
+            display: none;
+        }
+    
+    }
+    
+    
+    .serviceShortDesc{
+        padding: 30px 10px;
+    
+        h3{
+            width: 100%;
+            text-align: left;
+            font-size: 24px;
+        }
+    
+        .container{
+            margin: 20px 0px;
+            margin-bottom: 0px;
+    
+            .card{
+                width: 100%;
+                flex-direction: column;
+                padding: 10px 0px;
+    
+                .image{
+                    float: left;
+                    width: 100%;
+                    padding: 0px;
+                    text-align: center;
+                }
+    
+                .contents{
+                    width: 100%;
+                    padding: 0px;
+                    text-align: center;
+    
+                    h6{
+                        margin: 10px 0px;
+                    }
+    
+                    p{
+                        color: grey;
+                        font-size: 17px;
+                    }
+    
+                }
+    
+            }
+        }
+    
+    }
+}
