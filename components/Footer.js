@@ -29,7 +29,7 @@ const Footer = () => {
 
             <div className='card'>
                 <h5>COMPANY</h5>
-                <a href='/'>Why Seller Interactive?</a>
+                <a href='/'>Why XpertOpt</a>
                 <a href='/'>Our Story</a>
                 <a href='/'>Our Team</a>
                 <h5></h5>
