@@ -33,11 +33,11 @@ const MainMenu = () => {
                     </div>
                     <div className='list'>
                         <Image src='/menu/pl.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Product Launch</a>
+                        <a href='/services/amazon-product-launch'>Product Launch</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/lo.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Listing Optimization</a>
+                        <a href='/services/listing-optimization'>Listing Optimization</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/bpa.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>

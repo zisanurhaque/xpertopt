@@ -18,8 +18,8 @@ const Footer = () => {
                 <a href='/services/amazon-full-account-management'>Full Account Management</a>
                 <a href='/services/amazon-seo'>Search Engine Optimization (SEO)</a>
                 <a href='/services/amazon-ppc-management'>Sponsored Ads Management (PPC)</a>
-                <a href='/services/'>Product Launch</a>
-                <a href='/services/'>Listing Optimization</a>
+                <a href='/services/amazon-product-launch'>Product Launch</a>
+                <a href='/services/listing-optimization'>Listing Optimization</a>
                 <a href='/services/'>Brand Protection & Assistance</a>
                 <a href='/services/'>Account Suspension Appeal & Reinstatement</a>
                 <a href='/services/'>Reimbursement & Refund</a>

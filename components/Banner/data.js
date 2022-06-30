@@ -48,4 +48,26 @@ export const pageHeader = [
         link: "mailto:marketing@xpertopt.com",
         image: "/banner.jpg"
     },
+    {
+        page: "FBA Launch Service",
+        title: `Amazon FBA Launch Service`,
+        desc: [
+            "For first-time and experienced Amazon sellers, launching a new product can still be challenging and can definitely make or break your sales results online. Launching on Amazon marketplaces requires more than keyword research, positive reviews, and product photography. Increasing sales velocity is crucial for a viral launch. With our Seller Interactive professionals' experience, we can relieve you from the pitfalls and struggles of having a failed product launch and set you up for success."
+        ],
+        linkTitle: "Book a Call",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
+    {
+        page: "Amazon Listing Optimization Service",
+        title: `Amazon Listing Optimization Service`,
+        desc: [
+            "Amazon’s ever-changing algorithm makes it difficult to keep up. Yesterday’s best practices on images and keywords may not necessarily work today. A ‘fully optimized listing’ essentially has an adaptable strategy because “Set it and Forget it.” simply won’t cut it.",
+
+            "Seller Interactive understands what’s being evaluated in your Amazon listing, making it a valuable search result to potential customers. Our team focuses on assessing your listing and scanning it for any strategic gaps. We monitor, update, and deliver high-quality listings for shoppers and the Amazon algorithm."
+        ],
+        linkTitle: "Optimize Your Listings. Email Us Now!",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
 ]
