@@ -14,7 +14,7 @@ const CommonSec = () => {
                 </p>
             </div>
             <div className='image'>
-                <Image src={'/sec1.webp'} alt={''} height={'400px'} width={'500px'}/>
+                <Image src={'/sec1.webp'} alt={''} height={'270px'} width={'500px'}/>
             </div>
         </div>
     </>

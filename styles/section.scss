@@ -52,6 +52,8 @@ $font: 'Inter', sans-serif !important;
                 padding: 0px !important;
                 margin: 0px !important;
                 float: left !important;
+                border-radius: 20px !important;
+                height: max-content;
             }
 
         }
@@ -119,6 +121,81 @@ $font: 'Inter', sans-serif !important;
             }
 
         }
+    }
+
+}
+
+
+.faq{
+    float: left;
+    width: 100%;
+    padding: 50px 100px;
+
+    h3{
+        font-family: $font;
+        font-weight: 600;
+        text-align: center;
+        span{
+            color: $primaryColor;
+        }
+    }
+
+    .container{
+        float: left;
+        width: 100%;
+        padding: 0px 100px;
+        padding-top: 50px;
+
+        .card{
+            float: left;
+            width: 100%;
+            padding: 5px 0px;
+
+            h6{
+                display: flex;
+                align-items: center;
+                float: left;
+                span{
+                    float: left;
+                    margin-right: 15px;
+                    color: $primaryColor;
+                    font-size: 30px;
+                }
+            }
+
+            p{
+                color: grey;
+                padding: 5px 0px;
+                margin-left: 28px;
+                float: left;
+                font-size: 17px;
+            }
+
+            ul{
+                padding: 0px 50px;
+
+                li{
+                    float: left;
+                    width: 100%;
+                    font-size: 17px;
+                    color: grey;
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+
+                    span{
+                        color: $primaryColor;
+                        float: left;
+                        margin-right: 10px;
+                        font-size: 28px;
+                        font-weight: 600;
+                    }
+
+                }
+            }
+
+        }
+
     }
 
 }
@@ -197,6 +274,57 @@ $font: 'Inter', sans-serif !important;
                 }
     
             }
+        }
+    
+    }
+
+    .faq{
+        padding: 20px 10px;
+    
+        h3{
+            font-size: 24px;
+        }
+    
+        .container{
+            padding: 0px;
+            padding-top: 20px;
+    
+            .card{
+    
+                h6{
+                    font-size: 18px;
+                    span{
+                        margin-right: 10px;
+                        font-size: 28px;
+                    }
+                }
+    
+                p{
+                    margin-left: 20px;
+                    font-size: 16px;
+                }
+    
+                ul{
+                    padding: 0px 20px;
+                    float: left;
+    
+                    li{
+                        font-size: 16px;
+                        margin: 5px 0px;
+    
+                        span{
+                            color: $primaryColor;
+                            float: left;
+                            margin-right: 10px;
+                            font-size: 26px;
+                            font-weight: 600;
+                        }
+    
+                    }
+                }
+    
+            }
+    
         }
     
     }

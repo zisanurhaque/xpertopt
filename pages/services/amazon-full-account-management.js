@@ -4,7 +4,7 @@ import { pageHeader } from '../../components/Banner/data'
 import ServiceDesc from '../../components/ServiceDesc/index'
 import data from '../../components/ServiceDesc/account-management'
 import CommonSec from '../../components/CommonSec/index'
-import ServiceShortDesc from '../../components/ServiceDesc/serviceShortDesc'
+import ServiceShortDesc from '../../components/ServiceDesc/allServiceShortDesc'
 import TalkToUs from '../../components/TalkToUs'
 import Footer from '../../components/Footer'
 

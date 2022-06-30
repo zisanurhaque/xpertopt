@@ -11,7 +11,7 @@ const MainMenu = () => {
     <>
         <div className='menubar'>
             <li>
-                <a href='/'>
+                <a>
                     Our Services
                     <FontAwesomeIcon icon={faAngleDown} />
                 </a>
@@ -25,7 +25,7 @@ const MainMenu = () => {
                     </div>
                     <div className='list'>
                         <Image src='/menu/seo.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Search Engine Optimization (SEO)</a>
+                        <a href='/services/amazon-seo'>Search Engine Optimization (SEO)</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/ppc.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>

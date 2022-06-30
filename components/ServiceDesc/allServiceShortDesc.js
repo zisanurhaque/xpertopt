@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import serviceData from '../ServiceDesc/serviceData'
+import serviceData from './serviceData'
 
 const ServiceShortDesc = () => {
   return (

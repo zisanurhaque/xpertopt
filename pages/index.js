@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <TrustedBy/>
       <Partners/>
-      <SmallDesc/>
+      <SmallDesc/> 
       <Testimonials/>
       <TalkToUs/>
       <Footer/>
