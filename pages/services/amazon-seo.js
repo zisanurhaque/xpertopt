@@ -9,6 +9,8 @@ import Partner from '../../components/Partners'
 import TalkToUs from '../../components/TalkToUs'
 import Footer from '../../components/Footer'
 import Faq from '../../components/FAQ'
+import faqData from '../../components/FAQ/amazon-seo'
+import commonSecData from '../../components/CommonSec/seo'
 
 const AmazonSeo = () => {
   return (
@@ -16,8 +18,8 @@ const AmazonSeo = () => {
       <Header/>
       <Banner data={pageHeader[2]}/>
       <ServiceDesc data={data}/>
-      <CommonSec/>
-      <Faq/>
+      <CommonSec data={commonSecData}/>
+      <Faq data={faqData}/>
       <TalkToUs/>
       <Partner/>
       <Footer/>

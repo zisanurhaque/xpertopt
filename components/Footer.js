@@ -9,24 +9,22 @@ const Footer = () => {
                 <a href='/'>
                     <Image src={"/logo.png"} alt="XpertOpt" width={"150px"} height="35px"/>
                 </a>
-                <p>
-                    Grow your brand with SI
-                </p>
+                <p>Our Destination Is Increase Your Sales</p>
                 <span>© 2022 | XpertOpt.com All Rights Reserved. <a href='https://zisanurhaque.herokuapp.com'>Powered By @Zisanur Haque</a></span>
             </div>
 
             <div className='card'>
                 <h5>Services</h5>
-                <a href='/'>Full Account Management</a>
-                <a href='/'>Search Engine Optimization (SEO)</a>
-                <a href='/'>Sponsored Ads Management (PPC)</a>
-                <a href='/'>Product Launch</a>
-                <a href='/'>Listing Optimization</a>
-                <a href='/'>Brand Protection & Assistance</a>
-                <a href='/'>Account Suspension Appeal & Reinstatement</a>
-                <a href='/'>Reimbursement & Refund</a>
-                <a href='/'>FBA Wholesale Partnership Program</a>
-                <a href='/'>Amazon Demand-Side Platform Advertising</a>
+                <a href='/services/amazon-full-account-management'>Full Account Management</a>
+                <a href='/services/amazon-seo'>Search Engine Optimization (SEO)</a>
+                <a href='/services/amazon-ppc-management'>Sponsored Ads Management (PPC)</a>
+                <a href='/services/'>Product Launch</a>
+                <a href='/services/'>Listing Optimization</a>
+                <a href='/services/'>Brand Protection & Assistance</a>
+                <a href='/services/'>Account Suspension Appeal & Reinstatement</a>
+                <a href='/services/'>Reimbursement & Refund</a>
+                <a href='/services/'>FBA Wholesale Partnership Program</a>
+                <a href='/services/'>Amazon Demand-Side Platform Advertising</a>
             </div>
 
             <div className='card'>

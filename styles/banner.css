@@ -66,6 +66,7 @@
   font-size: 50px;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 10px;
   float: left;
   font-weight: 600;
   font-family: "Inter", sans-serif !important;
@@ -78,7 +79,7 @@
 .banner .contents .texts p {
   font-size: 18px;
   color: grey;
-  margin: 30px 0px;
+  margin: 10px 0px;
   float: left;
 }
 
@@ -91,6 +92,7 @@
   text-decoration: none;
   font-size: 17px;
   float: left;
+  margin-top: 20px;
 }
 
 .banner .contents img {
@@ -154,7 +156,7 @@
   .banner .contents .texts p {
     font-size: 20px;
     color: grey;
-    margin: 30px 0px;
+    margin: 10px 0px;
     float: left;
   }
   .banner .contents .texts a {

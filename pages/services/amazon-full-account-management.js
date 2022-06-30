@@ -7,6 +7,7 @@ import CommonSec from '../../components/CommonSec/index'
 import ServiceShortDesc from '../../components/ServiceDesc/allServiceShortDesc'
 import TalkToUs from '../../components/TalkToUs'
 import Footer from '../../components/Footer'
+import commonSecData from '../../components/CommonSec/account-management'
 
 const AccountManagement = () => {
   return (
@@ -14,7 +15,7 @@ const AccountManagement = () => {
         <Header/>
         <Banner data={pageHeader[1]}/>
         <ServiceDesc data={data}/>
-        <CommonSec/>
+        <CommonSec data={commonSecData}/>
         <ServiceShortDesc/>
         <TalkToUs/>
         <Footer/>

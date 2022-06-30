@@ -9,7 +9,11 @@ const Banner = ({data}) => {
         <div className='contents'>
           <div className='texts'>
             <h1>{data.title}<span>.</span></h1>
-            <p>{data.desc}</p>
+            {
+              data.desc.map((item) => (
+                <p>{item}</p>
+              ))
+            }
             <a href={data.link}>{data.linkTitle}</a>
           </div>
           <Image src={data.image} alt={data.title} width={"550px"} height={"400px"}/>

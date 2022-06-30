@@ -59,6 +59,7 @@ $font: 'Inter', sans-serif;
         font-size: 50px;
         padding: 0px;
         margin: 0px;
+        margin-bottom: 10px;
         float: left;
         font-weight: 600;
         font-family: $font !important;
@@ -70,7 +71,7 @@ $font: 'Inter', sans-serif;
       p{
         font-size: 18px;
         color: grey;
-        margin: 30px 0px;
+        margin: 10px 0px;
         float: left;
       }
 
@@ -83,6 +84,7 @@ $font: 'Inter', sans-serif;
         text-decoration: none;
         font-size: 17px;
         float: left;
+        margin-top: 20px;
       }
 
     }
@@ -147,7 +149,7 @@ $font: 'Inter', sans-serif;
         p{
           font-size: 20px;
           color: grey;
-          margin: 30px 0px;
+          margin: 10px 0px;
           float: left;
         }
   

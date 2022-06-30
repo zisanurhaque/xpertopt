@@ -29,7 +29,7 @@ const MainMenu = () => {
                     </div>
                     <div className='list'>
                         <Image src='/menu/ppc.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Sponsored Ads Management (PPC)</a>
+                        <a href='/services/amazon-ppc-management'>Sponsored Ads Management (PPC)</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/pl.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
