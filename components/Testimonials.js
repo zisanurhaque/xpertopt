@@ -14,6 +14,7 @@ const Testimonials = () => {
                     infiniteLoop={true} 
                     autoPlay={true}
                     interval={2000}
+                    showThumbs={false}
                 >
                     <div className='card'>
                         <h5>"Working with Seller Interactive has been a refreshing experience"</h5>

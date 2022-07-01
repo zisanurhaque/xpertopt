@@ -70,4 +70,50 @@ export const pageHeader = [
         link: "mailto:marketing@xpertopt.com",
         image: "/banner.jpg"
     },
+    {
+        page: "Amazon Brand Protection Solution",
+        title: `Amazon Brand Protection Solution`,
+        desc: [
+            "Dealing with a counterfeit seller or hijacker can get expensive fast. As Amazon sellers, you’ll be facing constant challenges with your product listings. Without the necessary protection against these violators, your sales will take a huge impact, and so will your expenses. At Seller Interactive, we want to alleviate these stresses by providing the support and assistance you need to protect your brand on Amazon.",
+
+            "Seller Interactive puts up the necessary protection needed to prevent your listing from common nuisances. This includes counterfeit products, unauthorized sellers, fake reviews, and more. The quicker you take measures to avoid these, the faster and stronger you can grow your brand on the Amazon marketplace."
+        ],
+        linkTitle: "Protect your Account. Mail Us Now!",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
+    {
+        page: "Amazon Suspension Appeal Service",
+        title: `Amazon Suspension Appeal Service`,
+        desc: [
+            "If you're selling on Amazon, Account Suspension is your biggest obstacle. Once you receive that dreaded notification that your account has been suspended, you need to act on this, and you need to do it fast. However, given how tricky suspensions are, you can't afford to make mistakes. You need to reinstate your account quickly and resolve the issue using the best solution - this is where we come in. Seller Interactive provides services that help Amazon Accounts prepare for the unexpected or resolve Amazon account suspension and avoid losses in time, money, and effort."
+        ],
+        linkTitle: "Account Suspended? Mail Us Now!",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
+    {
+        page: "FBA Reimbursement Service",
+        title: `Amazon FBA Reimbursement Service`,
+        desc: [
+            "We know how stressful it is to reconcile your inventory. That's why we at Seller Interactive want to help make it easier for you! With thousands of transactions happening on Amazon every day, mistakes and errors can occur at your expense.",
+
+            "Your FBA Seller account can get overwhelming when you need to keep track of all pending or lost items at the fulfillment center. It's likely that Amazon FBA indeed owes you, and even if you're unable to check your seller account frequently, it's essential to claim those pending reimbursements. Refunds and reimbursements can get a little complicated and time-consuming, but don't worry because Seller Interactive has that all covered. "
+        ],
+        linkTitle: "Claim your Reimbursements. Mail Us Now!",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
+    {
+        page: "Wholesale Partnership Program.",
+        title: `Wholesale Partnership Program`,
+        desc: [
+            "Selling on Amazon can be tricky and time-consuming if you aren’t familiar with the marketplace. Even if you are, the strains of maintaining, troubleshooting, and competing can become all too overwhelming. Managing an Amazon business requires time and money with constant efforts and unexpected expenses. Still, given how e-commerce is evolving and Amazon’s increasingly growing prominence in its role as part of the consumer’s purchase journey, it’s more critical than ever.",
+
+            "XpertOpt’s wholesale service alleviates the challenges of selling on Amazon by becoming your brand’s third-party re-seller on the largest e-commerce platform in the world. SI knows how to sell wholesale on Amazon and has a proven track record with leading products in multiple categories that make it a reliable and rewarding partnership for your brand. We buy the wholesale product directly from you and with our end-to-end logistics capabilities, in-house team, and third-party partnerships, we streamline the entire process handling the ins and outs of selling on Amazon FBA."
+        ],
+        linkTitle: "Thinking Wholesale? Mail Us Now!",
+        link: "mailto:marketing@xpertopt.com",
+        image: "/banner.jpg"
+    },
 ]

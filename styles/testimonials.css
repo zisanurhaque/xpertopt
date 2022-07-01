@@ -20,6 +20,8 @@
 
 .testimonials h1 {
   font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 42px;
 }
 
 .testimonials h1 span {

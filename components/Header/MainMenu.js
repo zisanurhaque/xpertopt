@@ -41,19 +41,19 @@ const MainMenu = () => {
                     </div>
                     <div className='list'>
                         <Image src='/menu/bpa.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Brand Protection & Assistance</a>
+                        <a href='/services/brand-protection-assistance'>Brand Protection & Assistance</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/asp.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Account Suspention Appeal & Reinstatement</a>
+                        <a href='/services/account-suspension-appeal-reinstatement'>Account Suspention Appeal & Reinstatement</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/rf.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Reimbursement & Refund</a>
+                        <a href='/services/amazon-reimbursement-refund'>Reimbursement & Refund</a>
                     </div>
                     <div className='list'>
                         <Image src='/menu/wpp.svg' alt='Full Account Management' width={logoWidth} height={logoHeight}/>
-                        <a href='/'>Wholesale Partnership Program</a>
+                        <a href='/services/amazon-wholesale-partnership'>Wholesale Partnership Program</a>
                     </div>
                 </div>
             </li>

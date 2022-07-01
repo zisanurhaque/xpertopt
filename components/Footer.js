@@ -20,11 +20,10 @@ const Footer = () => {
                 <a href='/services/amazon-ppc-management'>Sponsored Ads Management (PPC)</a>
                 <a href='/services/amazon-product-launch'>Product Launch</a>
                 <a href='/services/listing-optimization'>Listing Optimization</a>
-                <a href='/services/'>Brand Protection & Assistance</a>
-                <a href='/services/'>Account Suspension Appeal & Reinstatement</a>
-                <a href='/services/'>Reimbursement & Refund</a>
-                <a href='/services/'>FBA Wholesale Partnership Program</a>
-                <a href='/services/'>Amazon Demand-Side Platform Advertising</a>
+                <a href='/services/brand-protection-assistance'>Brand Protection & Assistance</a>
+                <a href='/services/account-suspension-appeal-reinstatement'>Account Suspension Appeal & Reinstatement</a>
+                <a href='/services/amazon-reimbursement-refund'>Reimbursement & Refund</a>
+                <a href='/services/amazon-wholesale-partnership'>FBA Wholesale Partnership Program</a>
             </div>
 
             <div className='card'>

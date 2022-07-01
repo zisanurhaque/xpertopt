@@ -18,7 +18,7 @@ $font: 'Inter', sans-serif !important;
             padding: 0px;
             margin: 15px 0px;
             float: left;
-            font-weight: 600;
+            font-weight: 800;
             font-family: $font;
             span{
               color: $primaryColor;
@@ -75,6 +75,7 @@ $font: 'Inter', sans-serif !important;
 
     h3{
         width: 65%;
+        font-weight: 800;
         text-align: center;
         font-family: $font;
 
@@ -134,7 +135,7 @@ $font: 'Inter', sans-serif !important;
 
     h3{
         font-family: $font;
-        font-weight: 600;
+        font-weight: 800;
         text-align: center;
         span{
             color: $primaryColor;

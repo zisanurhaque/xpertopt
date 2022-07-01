@@ -5,6 +5,7 @@
 */
 .homeBanner .banner .contents .texts h1 {
   font-size: 54px;
+  font-weight: 900;
 }
 
 .homeBanner .banner .contents .texts p {
@@ -63,12 +64,12 @@
 }
 
 .banner .contents .texts h1 {
-  font-size: 50px;
+  font-size: 46px;
   padding: 0px;
   margin: 0px;
   margin-bottom: 10px;
   float: left;
-  font-weight: 600;
+  font-weight: 800;
   font-family: "Inter", sans-serif !important;
 }
 
