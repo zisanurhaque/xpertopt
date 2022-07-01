@@ -6,7 +6,7 @@ export const pageHeader = [
             "Take your business to the next level, and let us help you thrive online."
         ],
         linkTitle: "Schedule a free consultation",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -18,7 +18,7 @@ export const pageHeader = [
             "Our team at XpertOpt will provide you a comprehensive approach in Amazon support handling, optimizing the customer service experience, and protecting your seller account health in all aspects."
         ],
         linkTitle: "Book a Call",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -30,7 +30,7 @@ export const pageHeader = [
             "XpertOpt can make the difference in how your product ranks on Amazon. Our consultants are the experts when it comes to SEO practice. From understanding the Amazon a10 algorithm to optimizing the relevant keywords, our team is ready to help you sell on Amazon."
         ],
         linkTitle: "Work with an Amazon SEO Expert. Mail Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -45,7 +45,7 @@ export const pageHeader = [
             "Seller Interactive’s Amazon PPC management service provides strategic solutions for your Amazon products. Our team of expert PPC specialists develops campaigns explicitly catered to your industry to help maximize your sales on Amazon while keeping your costs low."
         ],
         linkTitle: "Work with an Amazon PPC Expert. Call Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -55,7 +55,7 @@ export const pageHeader = [
             "For first-time and experienced Amazon sellers, launching a new product can still be challenging and can definitely make or break your sales results online. Launching on Amazon marketplaces requires more than keyword research, positive reviews, and product photography. Increasing sales velocity is crucial for a viral launch. With our Seller Interactive professionals' experience, we can relieve you from the pitfalls and struggles of having a failed product launch and set you up for success."
         ],
         linkTitle: "Book a Call",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -67,7 +67,7 @@ export const pageHeader = [
             "Seller Interactive understands what’s being evaluated in your Amazon listing, making it a valuable search result to potential customers. Our team focuses on assessing your listing and scanning it for any strategic gaps. We monitor, update, and deliver high-quality listings for shoppers and the Amazon algorithm."
         ],
         linkTitle: "Optimize Your Listings. Email Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -79,7 +79,7 @@ export const pageHeader = [
             "Seller Interactive puts up the necessary protection needed to prevent your listing from common nuisances. This includes counterfeit products, unauthorized sellers, fake reviews, and more. The quicker you take measures to avoid these, the faster and stronger you can grow your brand on the Amazon marketplace."
         ],
         linkTitle: "Protect your Account. Mail Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -89,7 +89,7 @@ export const pageHeader = [
             "If you're selling on Amazon, Account Suspension is your biggest obstacle. Once you receive that dreaded notification that your account has been suspended, you need to act on this, and you need to do it fast. However, given how tricky suspensions are, you can't afford to make mistakes. You need to reinstate your account quickly and resolve the issue using the best solution - this is where we come in. Seller Interactive provides services that help Amazon Accounts prepare for the unexpected or resolve Amazon account suspension and avoid losses in time, money, and effort."
         ],
         linkTitle: "Account Suspended? Mail Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -101,7 +101,7 @@ export const pageHeader = [
             "Your FBA Seller account can get overwhelming when you need to keep track of all pending or lost items at the fulfillment center. It's likely that Amazon FBA indeed owes you, and even if you're unable to check your seller account frequently, it's essential to claim those pending reimbursements. Refunds and reimbursements can get a little complicated and time-consuming, but don't worry because Seller Interactive has that all covered. "
         ],
         linkTitle: "Claim your Reimbursements. Mail Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
     {
@@ -113,7 +113,7 @@ export const pageHeader = [
             "XpertOpt’s wholesale service alleviates the challenges of selling on Amazon by becoming your brand’s third-party re-seller on the largest e-commerce platform in the world. SI knows how to sell wholesale on Amazon and has a proven track record with leading products in multiple categories that make it a reliable and rewarding partnership for your brand. We buy the wholesale product directly from you and with our end-to-end logistics capabilities, in-house team, and third-party partnerships, we streamline the entire process handling the ins and outs of selling on Amazon FBA."
         ],
         linkTitle: "Thinking Wholesale? Mail Us Now!",
-        link: "mailto:marketing@xpertopt.com",
+        link: "mailto:founder.xpertopt@gmail.com",
         image: "/banner.jpg"
     },
 ]

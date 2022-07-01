@@ -5,11 +5,11 @@ const ContactMenu = () => {
   return (
     <>
         <div className='contact-menu'>
-            <a href='/' className='contactNumber'>
+            <a href='tel:+8801723321714' className='contactNumber'>
               <FontAwesomeIcon icon={faPhone} />
-            +880 0171-2345-456
+            +880-1723-321-714
             </a>
-            <a href='mailto:marketing@xpertopt.com' className='contactBtn'>
+            <a href='mailto:founder.xpertopt@gmail.com' className='contactBtn'>
               Contact Us
             </a>
         </div>
