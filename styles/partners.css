@@ -5,27 +5,19 @@
   padding-top: 0px;
   text-align: center;
 }
-
 .partners h6 {
   color: grey;
   font-weight: 400;
   margin-bottom: 20px;
 }
-
 .partners .container {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0px 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .partners .container .logo {
   float: left;
   width: -webkit-max-content;
@@ -35,7 +27,6 @@
   height: -moz-max-content;
   height: max-content;
 }
-
 .partners .container .logo img {
   float: left;
   width: 100% !important;
@@ -60,12 +51,8 @@
   .partners .container {
     float: left;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 50px;
   }
   .partners .container .logo {
@@ -86,5 +73,4 @@
     -o-object-fit: contain !important;
        object-fit: contain !important;
   }
-}
-/*# sourceMappingURL=partners.css.map */
+}/*# sourceMappingURL=partners.css.map */

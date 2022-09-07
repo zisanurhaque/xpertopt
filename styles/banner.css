@@ -7,11 +7,9 @@
   font-size: 54px;
   font-weight: 900;
 }
-
 .homeBanner .banner .contents .texts p {
   font-size: 20px;
 }
-
 .homeBanner .banner .contents .texts a {
   padding: 15px 30px;
 }
@@ -21,48 +19,33 @@
   width: 100%;
   min-height: 100vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 100px;
 }
-
 .banner .asset {
   float: left;
   position: absolute;
   right: 0;
   top: 0;
 }
-
 .banner .asset img {
   width: 100% !important;
   height: 100vh !important;
 }
-
 .banner .contents {
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 100px;
   z-index: 1;
 }
-
 .banner .contents .texts {
   width: 50%;
   float: left;
   padding: 10px;
 }
-
 .banner .contents .texts h1 {
   font-size: 46px;
   padding: 0px;
@@ -72,18 +55,15 @@
   font-weight: 800;
   font-family: "Inter", sans-serif !important;
 }
-
 .banner .contents .texts h1 span {
   color: #2562BA;
 }
-
 .banner .contents .texts p {
   font-size: 18px;
   color: grey;
   margin: 10px 0px;
   float: left;
 }
-
 .banner .contents .texts a {
   padding: 12px 25px;
   background: #2562BA;
@@ -95,7 +75,6 @@
   float: left;
   margin-top: 20px;
 }
-
 .banner .contents img {
   float: left;
   border-radius: 10px;
@@ -130,8 +109,6 @@
   }
   .banner .contents {
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 120px;
     z-index: 1;
@@ -148,7 +125,7 @@
     margin: 0px;
     float: left;
     font-weight: 800;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     width: 100%;
   }
   .banner .contents .texts h1 span {
@@ -175,7 +152,6 @@
     border-radius: 10px;
   }
 }
-
 @media screen and (max-width: 900px) {
   .banner {
     padding: 80px 20px;
@@ -247,7 +223,6 @@
     display: none !important;
   }
 }
-
 @media screen and (max-width: 460px) {
   .banner {
     padding: 80px 0px;
@@ -316,5 +291,4 @@
     border-radius: 10px;
     display: none !important;
   }
-}
-/*# sourceMappingURL=banner.css.map */
+}/*# sourceMappingURL=banner.css.map */

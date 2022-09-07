@@ -6,7 +6,7 @@ const data = [
     },
     {
         title: "Maximize potential revenue",
-        desc: "Selling on Amazon has its challenges and roadblocks. Seller Interactive provides you with the strategies and management services to increase your conversion rate.",
+        desc: "Selling on Amazon has its challenges and roadblocks. XpertOpt provides you with the strategies and management services to increase your conversion rate.",
         image: "/serviceDesc/amazon-full-account-management/maximize-potential-support.svg"
     },
     {

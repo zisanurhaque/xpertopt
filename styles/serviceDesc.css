@@ -3,26 +3,19 @@
   float: left;
   padding: 50px 100px;
   background: #ddecff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .serviceDesc .card {
   float: left;
   padding: 10px;
   width: 30%;
 }
-
 .serviceDesc .card h6 {
   font-size: 19px;
   padding: 10px 0px;
   margin: 0px;
 }
-
 .serviceDesc .card p {
   padding: 0px;
   margin: 0px;
@@ -50,5 +43,4 @@
     margin: 0px;
     font-size: 16px;
   }
-}
-/*# sourceMappingURL=serviceDesc.css.map */
+}/*# sourceMappingURL=serviceDesc.css.map */

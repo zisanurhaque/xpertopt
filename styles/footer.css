@@ -3,13 +3,11 @@
   float: left;
   padding: 50px 100px;
 }
-
 .footer .card {
   float: left;
   width: 25%;
   padding: 15px;
 }
-
 .footer .card h5 {
   font-size: 14px;
   color: grey;
@@ -21,7 +19,6 @@
   float: left;
   width: 100%;
 }
-
 .footer .card a {
   float: left;
   color: black;
@@ -29,24 +26,20 @@
   width: 100%;
   margin: 8px 0px;
 }
-
 .footer .card a:hover {
   color: grey;
 }
-
 .footer .card p {
   font-weight: 600;
   font-size: 16px;
   float: left;
   width: 100%;
 }
-
 .footer .card span {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 100%;
   float: left;
 }
-
 .footer .card span a {
   width: 100%;
   float: left;
@@ -61,7 +54,6 @@
     padding: 20px 10px;
   }
 }
-
 @media screen and (max-width: 559px) {
   .footer {
     padding: 50px 20px;
@@ -70,5 +62,4 @@
     width: 100%;
     padding: 10px 0px;
   }
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

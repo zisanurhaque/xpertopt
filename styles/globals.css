@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -10,7 +9,7 @@ body {
   font-family: bahnschrift;
   font-size: 16px;
   font-weight: 300;
-  color: #24252b;
+  color: rgb(36, 37, 43);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -53,28 +52,21 @@ h6 {
   position: fixed;
   z-index: 999;
 }
-
 .headerContainer .webHeader {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   float: left;
 }
-
 .headerContainer .sticky {
   background: none;
 }
-
 .headerContainer .mobileHeader {
   display: none;
 }
-
 .headerContainer .topmenu {
   float: left;
   padding: 5px 100px;
   width: 100%;
 }
-
 .headerContainer .topmenu .language {
   float: right;
   position: relative;
@@ -84,15 +76,10 @@ h6 {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 30px;
 }
-
 .headerContainer .topmenu .language button {
   float: left;
   background: none;
@@ -100,56 +87,41 @@ h6 {
   font-size: 16px;
   position: relative;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .headerContainer .topmenu .language button svg {
   margin-left: 5px;
   width: 10px;
 }
-
 .headerContainer .topmenu .language .dropdown {
   float: left;
   position: absolute;
   left: 0;
   background: white;
-  -webkit-box-shadow: 0px 0px 5px 0px #ebebeb;
-          box-shadow: 0px 0px 5px 0px #ebebeb;
+  box-shadow: 0px 0px 5px 0px rgb(235, 235, 235);
   width: 10vw;
   padding: 10px;
   display: none;
   top: 30px;
   z-index: 999;
 }
-
 .headerContainer .topmenu .language .dropdown button {
   float: left;
   cursor: pointer;
 }
-
 .headerContainer .topmenu :hover .dropdown {
   display: block;
 }
-
 .headerContainer .header {
   float: left;
   width: 100%;
   height: 55px;
   padding: 0px 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
 }
-
 .headerContainer .header .toggler {
   position: absolute;
   right: 20px;
@@ -159,33 +131,23 @@ h6 {
   font-size: 18px;
   cursor: pointer;
 }
-
 .headerContainer .header .brand {
   float: left;
   margin-top: 10px;
 }
-
 .headerContainer .header .menubar {
   float: left;
   margin-left: 15px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
-
 .headerContainer .header .menubar li {
   list-style-type: none;
   float: left;
   position: relative;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .headerContainer .header .menubar li a {
   color: black;
   text-decoration: none;
@@ -193,36 +155,32 @@ h6 {
   position: relative;
   padding: 20px 0px;
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .headerContainer .header .menubar li a svg {
   margin-left: 5px;
   width: 10px;
 }
-
 .headerContainer .header .menubar li .dropdown {
   float: left;
-  padding: 20px;
+  padding: 30px;
   background: white;
-  -webkit-box-shadow: 0px 0px 5px 0px #ebebeb;
-          box-shadow: 0px 0px 5px 0px #ebebeb;
+  box-shadow: 0px 0px 5px 0px rgb(201, 201, 201);
   position: absolute;
   left: 0;
-  width: 25vw;
+  width: 70vw;
   border-radius: 10px;
   top: 0;
   margin-top: 40px;
   z-index: 999;
   display: none;
 }
-
-.headerContainer .header .menubar li .dropdown h6 {
+.headerContainer .header .menubar li .dropdown .col {
+  width: 33.33% !important;
+  float: left;
+}
+.headerContainer .header .menubar li .dropdown .col h6 {
   text-align: left;
   display: block;
   color: #2562BA;
@@ -232,53 +190,46 @@ h6 {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-
-.headerContainer .header .menubar li .dropdown .list {
+.headerContainer .header .menubar li .dropdown .col .list {
   float: left;
   padding: 10px;
   margin: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 100%;
 }
-
-.headerContainer .header .menubar li .dropdown .list img {
-  float: left;
+.headerContainer .header .menubar li .dropdown .col .list span {
+  width: 8% !important;
 }
-
-.headerContainer .header .menubar li .dropdown .list a {
+.headerContainer .header .menubar li .dropdown .col .list span span {
+  width: 100% !important;
+}
+.headerContainer .header .menubar li .dropdown .col .list span span img {
+  float: left;
+  width: 100% !important;
+}
+.headerContainer .header .menubar li .dropdown .col .list a {
   float: left;
   padding: 0px;
   margin: 0px;
-  margin-left: 15px;
+  padding-left: 10px !important;
+  width: 90% !important;
+  font-size: 14px;
 }
-
-.headerContainer .header .menubar li .dropdown :hover a {
+.headerContainer .header .menubar li .dropdown .col :hover a {
   color: grey;
 }
-
 .headerContainer .header .menubar :hover {
   color: grey;
 }
-
 .headerContainer .header .menubar li:hover .dropdown {
-  display: block;
+  display: flex;
 }
-
 .headerContainer .header .contact-menu {
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .headerContainer .header .contact-menu a {
   text-decoration: none;
   color: black;
@@ -286,27 +237,22 @@ h6 {
   margin: 0px 10px;
   background: none;
 }
-
 .headerContainer .header .contact-menu a svg {
   margin-right: 5px;
   float: left;
   width: 15px;
 }
-
 .headerContainer .header .contact-menu :hover {
   color: grey;
 }
-
 .headerContainer .header .contact-menu a.contactBtn {
   padding: 12px 20px;
   background: #ddecff;
   border-radius: 10px;
   font-weight: 400;
   color: #2562BA;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 .headerContainer .header .contact-menu :hover {
   color: grey !important;
 }
@@ -319,6 +265,7 @@ h6 {
     display: none !important;
   }
   .headerContainer .topmenu {
+    display: none !important;
     padding: 5px 20px;
   }
   .headerContainer .topmenu .language .dropdown {
@@ -328,10 +275,8 @@ h6 {
   .headerContainer .mobileHeader {
     float: left;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    padding: 0px 10px;
+    padding: 20px 10px;
     position: relative;
   }
   .headerContainer .mobileHeader .brand {
@@ -344,7 +289,7 @@ h6 {
     cursor: pointer;
     float: left;
     right: 20px;
-    top: 5px;
+    top: 20px;
   }
   .headerContainer .mobileHeader .toggler svg {
     width: 15px;
@@ -362,6 +307,7 @@ h6 {
     z-index: 9999;
     background: white;
     float: left;
+    box-shadow: inset 0px 0px 5px 0px rgb(236, 236, 236);
   }
   .headerContainer .header .toggler {
     z-index: 999;
@@ -394,14 +340,18 @@ h6 {
     margin-left: 5px;
   }
   .headerContainer .header .menubar :hover .dropdown {
-    width: 100%;
+    width: 100% !important;
     padding: 20px 10px;
+    display: block !important;
+  }
+  .headerContainer .header .menubar :hover .dropdown .col {
+    width: 100% !important;
+  }
+  .headerContainer .header .menubar :hover .dropdown .col h6 {
+    margin-top: 20px !important;
   }
   .headerContainer .header .contact-menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   .headerContainer .header .contact-menu a {
@@ -413,7 +363,6 @@ h6 {
     float: left;
   }
 }
-
 /*
 ===========================================
 ---------------Banner Section--------------
@@ -423,11 +372,9 @@ h6 {
   font-size: 54px;
   font-weight: 900;
 }
-
 .homeBanner .banner .contents .texts p {
   font-size: 20px;
 }
-
 .homeBanner .banner .contents .texts a {
   padding: 15px 30px;
 }
@@ -437,48 +384,33 @@ h6 {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 100px;
 }
-
 .banner .asset {
   float: left;
   position: absolute;
   right: 0;
   top: 0;
 }
-
 .banner .asset img {
   width: 100% !important;
   height: 100vh !important;
 }
-
 .banner .contents {
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 100px;
   z-index: 1;
 }
-
 .banner .contents .texts {
   width: 50%;
   float: left;
   padding: 10px;
 }
-
 .banner .contents .texts h1 {
   font-size: 46px;
   padding: 0px;
@@ -488,18 +420,15 @@ h6 {
   font-weight: 800;
   font-family: "Inter", sans-serif !important;
 }
-
 .banner .contents .texts h1 span {
   color: #2562BA;
 }
-
 .banner .contents .texts p {
   font-size: 18px;
   color: grey;
   margin: 10px 0px;
   float: left;
 }
-
 .banner .contents .texts a {
   padding: 12px 25px;
   background: #2562BA;
@@ -511,7 +440,6 @@ h6 {
   float: left;
   margin-top: 20px;
 }
-
 .banner .contents img {
   float: left;
   border-radius: 10px;
@@ -546,8 +474,6 @@ h6 {
   }
   .banner .contents {
     float: left;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 120px;
     z-index: 1;
@@ -564,7 +490,7 @@ h6 {
     margin: 0px;
     float: left;
     font-weight: 800;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     width: 100%;
   }
   .banner .contents .texts h1 span {
@@ -591,7 +517,6 @@ h6 {
     border-radius: 10px;
   }
 }
-
 @media screen and (max-width: 900px) {
   .banner {
     padding: 80px 20px;
@@ -663,7 +588,6 @@ h6 {
     display: none !important;
   }
 }
-
 @media screen and (max-width: 460px) {
   .banner {
     padding: 80px 0px;
@@ -733,33 +657,24 @@ h6 {
     display: none !important;
   }
 }
-
 .trustedBy {
   float: left;
   width: 100%;
   padding: 100px;
   text-align: center;
 }
-
 .trustedBy h6 {
   color: grey;
   font-weight: 400;
 }
-
 .trustedBy .container {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 10px 20px;
 }
-
 .trustedBy .container .logo {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -770,7 +685,6 @@ h6 {
   float: left;
   margin: 20px;
 }
-
 .trustedBy .container .logo img {
   width: 100% !important;
   height: -webkit-max-content !important;
@@ -795,14 +709,9 @@ h6 {
   .trustedBy .container {
     float: left;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 10px 20px;
   }
   .trustedBy .container .logo {
@@ -825,7 +734,6 @@ h6 {
        object-fit: contain !important;
   }
 }
-
 .partners {
   float: left;
   width: 100%;
@@ -833,27 +741,19 @@ h6 {
   padding-top: 0px;
   text-align: center;
 }
-
 .partners h6 {
   color: grey;
   font-weight: 400;
   margin-bottom: 20px;
 }
-
 .partners .container {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0px 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .partners .container .logo {
   float: left;
   width: -webkit-max-content;
@@ -863,7 +763,6 @@ h6 {
   height: -moz-max-content;
   height: max-content;
 }
-
 .partners .container .logo img {
   float: left;
   width: 100% !important;
@@ -888,12 +787,8 @@ h6 {
   .partners .container {
     float: left;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding: 0px 50px;
   }
   .partners .container .logo {
@@ -915,42 +810,30 @@ h6 {
        object-fit: contain !important;
   }
 }
-
 .smallDesc {
   float: left;
   width: 100%;
   padding: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .smallDesc .contents {
   float: left;
   width: 50%;
 }
-
 .smallDesc .contents h1 {
   font-weight: 800;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 38px;
 }
-
 .smallDesc .contents h1 span {
   color: #2562BA;
 }
-
 .smallDesc .contents p {
   font-size: 18px;
   color: grey;
 }
-
 .smallDesc .image {
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -958,18 +841,11 @@ h6 {
   float: left;
   width: 50%;
   padding: 0px 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
-
 .smallDesc .image .top {
   position: absolute;
   top: -50px;
@@ -982,7 +858,6 @@ h6 {
   height: max-content;
   z-index: -1;
 }
-
 .smallDesc .image .top img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -991,7 +866,6 @@ h6 {
   height: -moz-max-content !important;
   height: max-content !important;
 }
-
 .smallDesc .image .bottom {
   position: absolute;
   bottom: -20px;
@@ -1004,7 +878,6 @@ h6 {
   height: max-content;
   z-index: -1;
 }
-
 .smallDesc .image .bottom img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -1013,7 +886,6 @@ h6 {
   height: -moz-max-content !important;
   height: max-content !important;
 }
-
 .smallDesc .image img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -1040,94 +912,60 @@ h6 {
     display: none;
   }
 }
-
 .testimonials {
   float: left;
   width: 100%;
   padding: 50px 100px;
   background: #f7f9fa;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: centere;
-      -ms-flex-pack: centere;
-          justify-content: centere;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: centere;
+  flex-direction: column;
+  align-items: center;
 }
-
 .testimonials h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 42px;
 }
-
 .testimonials h1 span {
   color: #2562BA;
 }
-
 .testimonials .container {
   float: left;
   width: 100%;
   overflow: hidden;
 }
-
 .testimonials .container .control-arrow {
   display: none;
 }
-
 .testimonials .container .carousel-status {
   display: none;
 }
-
 .testimonials .container .card {
   float: left;
   width: 100%;
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 30px;
 }
-
 .testimonials .container .card h5 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: grey;
 }
-
 .testimonials .container .card p {
   font-size: 20px;
   color: grey;
   font-weight: 300;
 }
-
 .testimonials .container .card .details {
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
 }
-
 .testimonials .container .card .details h4 {
   padding: 0px;
   margin: 0px;
@@ -1135,7 +973,6 @@ h6 {
   font-size: 18px;
   font-weight: 400;
 }
-
 .testimonials .container .card .details p {
   font-size: 18px;
   padding: 0px;
@@ -1144,7 +981,6 @@ h6 {
   font-weight: 400;
   margin-top: 5px;
 }
-
 .testimonials .container .card .details .logo {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -1154,7 +990,6 @@ h6 {
   height: max-content;
   float: left;
 }
-
 .testimonials .container .card .details .logo img {
   width: 100% !important;
   height: -webkit-max-content !important;
@@ -1186,45 +1021,32 @@ h6 {
     font-size: 18px;
   }
 }
-
 .talkToUs {
   float: left;
   width: 100%;
   padding: 50px 100px;
 }
-
 .talkToUs .contents {
   float: left;
   position: absolute;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 85vw;
   height: 400px;
   color: white;
 }
-
 .talkToUs .contents h1 {
   font-weight: 800;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 38px;
   width: 50%;
   text-align: center;
   padding: 0px;
   margin: 0px;
 }
-
 .talkToUs .contents p {
   font-size: 18px;
   width: 50%;
@@ -1233,7 +1055,6 @@ h6 {
   margin: 0px;
   margin-top: 10px;
 }
-
 .talkToUs .contents a {
   padding: 12px 30px;
   color: #2562BA;
@@ -1243,7 +1064,6 @@ h6 {
   margin-top: 30px;
   font-weight: 600;
 }
-
 .talkToUs img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -1261,19 +1081,10 @@ h6 {
     float: left;
     position: absolute;
     z-index: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 85vw;
     height: 500px;
     color: white;
@@ -1293,32 +1104,24 @@ h6 {
     height: 500px !important;
   }
 }
-
 .serviceDesc {
   width: 100%;
   float: left;
   padding: 50px 100px;
   background: #ddecff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .serviceDesc .card {
   float: left;
   padding: 10px;
   width: 30%;
 }
-
 .serviceDesc .card h6 {
   font-size: 19px;
   padding: 10px 0px;
   margin: 0px;
 }
-
 .serviceDesc .card p {
   padding: 0px;
   margin: 0px;
@@ -1347,28 +1150,19 @@ h6 {
     font-size: 16px;
   }
 }
-
 .commonSec {
   width: 100%;
   float: left;
   padding: 50px 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .commonSec .contents {
   float: left;
   width: 50%;
   padding: 10px;
 }
-
 .commonSec .contents h3 {
   padding: 0px;
   margin: 15px 0px;
@@ -1376,17 +1170,14 @@ h6 {
   font-weight: 800;
   font-family: "Inter", sans-serif !important;
 }
-
 .commonSec .contents h3 span {
   color: #2562BA;
 }
-
 .commonSec .contents p {
   font-size: 18px;
   color: grey;
   margin: 20px 0px;
 }
-
 .commonSec .image {
   float: left;
   width: 50%;
@@ -1395,18 +1186,11 @@ h6 {
   height: max-content;
   position: relative;
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   padding: 20px;
 }
-
 .commonSec .image span img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -1425,76 +1209,50 @@ h6 {
 .serviceShortDesc {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 50px 100px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .serviceShortDesc h3 {
   width: 65%;
   font-weight: 800;
   text-align: center;
   font-family: "Inter", sans-serif !important;
 }
-
 .serviceShortDesc h3 span {
   color: #2562BA;
 }
-
 .serviceShortDesc .container {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 50px 0px;
   margin-bottom: 0px;
 }
-
 .serviceShortDesc .container .card {
   float: left;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 5px 0px;
 }
-
 .serviceShortDesc .container .card .image {
   float: left;
   width: 10%;
   padding: 10px 0px;
 }
-
 .serviceShortDesc .container .card .contents {
   width: 90%;
   float: left;
   padding: 10px;
 }
-
 .serviceShortDesc .container .card .contents h6 {
   margin-bottom: 20px;
 }
-
 .serviceShortDesc .container .card .contents p {
   color: grey;
   font-size: 17px;
@@ -1505,47 +1263,36 @@ h6 {
   width: 100%;
   padding: 50px 100px;
 }
-
 .faq h3 {
   font-family: "Inter", sans-serif !important;
   font-weight: 800;
   text-align: center;
 }
-
 .faq h3 span {
   color: #2562BA;
 }
-
 .faq .container {
   float: left;
   width: 100%;
   padding: 0px 100px;
   padding-top: 50px;
 }
-
 .faq .container .card {
   float: left;
   width: 100%;
   padding: 5px 0px;
 }
-
 .faq .container .card h6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   float: left;
 }
-
 .faq .container .card h6 span {
   float: left;
   margin-right: 15px;
   color: #2562BA;
   font-size: 30px;
 }
-
 .faq .container .card p {
   color: grey;
   padding: 5px 0px;
@@ -1554,25 +1301,18 @@ h6 {
   font-size: 17px;
   width: 100%;
 }
-
 .faq .container .card ul {
   padding: 0px 50px;
 }
-
 .faq .container .card ul li {
   float: left;
   width: 100%;
   font-size: 17px;
   color: grey;
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .faq .container .card ul li span {
   color: #2562BA;
   float: left;
@@ -1616,10 +1356,7 @@ h6 {
   }
   .serviceShortDesc .container .card {
     width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 10px 0px;
   }
   .serviceShortDesc .container .card .image {
@@ -1677,19 +1414,16 @@ h6 {
     font-weight: 600;
   }
 }
-
 .footer {
   width: 100%;
   float: left;
   padding: 50px 100px;
 }
-
 .footer .card {
   float: left;
   width: 25%;
   padding: 15px;
 }
-
 .footer .card h5 {
   font-size: 14px;
   color: grey;
@@ -1701,7 +1435,6 @@ h6 {
   float: left;
   width: 100%;
 }
-
 .footer .card a {
   float: left;
   color: black;
@@ -1709,24 +1442,20 @@ h6 {
   width: 100%;
   margin: 8px 0px;
 }
-
 .footer .card a:hover {
   color: grey;
 }
-
 .footer .card p {
   font-weight: 600;
   font-size: 16px;
   float: left;
   width: 100%;
 }
-
 .footer .card span {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 100%;
   float: left;
 }
-
 .footer .card span a {
   width: 100%;
   float: left;
@@ -1741,7 +1470,6 @@ h6 {
     padding: 20px 10px;
   }
 }
-
 @media screen and (max-width: 559px) {
   .footer {
     padding: 50px 20px;
@@ -1750,5 +1478,4 @@ h6 {
     width: 100%;
     padding: 10px 0px;
   }
-}
-/*# sourceMappingURL=globals.css.map */
+}/*# sourceMappingURL=globals.css.map */

@@ -2,23 +2,15 @@
   width: 100%;
   float: left;
   padding: 50px 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .commonSec .contents {
   float: left;
   width: 50%;
   padding: 10px;
 }
-
 .commonSec .contents h3 {
   padding: 0px;
   margin: 15px 0px;
@@ -26,17 +18,14 @@
   font-weight: 800;
   font-family: "Inter", sans-serif !important;
 }
-
 .commonSec .contents h3 span {
   color: #2562BA;
 }
-
 .commonSec .contents p {
   font-size: 18px;
   color: grey;
   margin: 20px 0px;
 }
-
 .commonSec .image {
   float: left;
   width: 50%;
@@ -45,18 +34,11 @@
   height: max-content;
   position: relative;
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   padding: 20px;
 }
-
 .commonSec .image span img {
   -o-object-fit: contain !important;
      object-fit: contain !important;
@@ -75,76 +57,50 @@
 .serviceShortDesc {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 50px 100px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .serviceShortDesc h3 {
   width: 65%;
   font-weight: 800;
   text-align: center;
   font-family: "Inter", sans-serif !important;
 }
-
 .serviceShortDesc h3 span {
   color: #2562BA;
 }
-
 .serviceShortDesc .container {
   float: left;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 50px 0px;
   margin-bottom: 0px;
 }
-
 .serviceShortDesc .container .card {
   float: left;
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 5px 0px;
 }
-
 .serviceShortDesc .container .card .image {
   float: left;
   width: 10%;
   padding: 10px 0px;
 }
-
 .serviceShortDesc .container .card .contents {
   width: 90%;
   float: left;
   padding: 10px;
 }
-
 .serviceShortDesc .container .card .contents h6 {
   margin-bottom: 20px;
 }
-
 .serviceShortDesc .container .card .contents p {
   color: grey;
   font-size: 17px;
@@ -155,47 +111,36 @@
   width: 100%;
   padding: 50px 100px;
 }
-
 .faq h3 {
   font-family: "Inter", sans-serif !important;
   font-weight: 800;
   text-align: center;
 }
-
 .faq h3 span {
   color: #2562BA;
 }
-
 .faq .container {
   float: left;
   width: 100%;
   padding: 0px 100px;
   padding-top: 50px;
 }
-
 .faq .container .card {
   float: left;
   width: 100%;
   padding: 5px 0px;
 }
-
 .faq .container .card h6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   float: left;
 }
-
 .faq .container .card h6 span {
   float: left;
   margin-right: 15px;
   color: #2562BA;
   font-size: 30px;
 }
-
 .faq .container .card p {
   color: grey;
   padding: 5px 0px;
@@ -204,25 +149,18 @@
   font-size: 17px;
   width: 100%;
 }
-
 .faq .container .card ul {
   padding: 0px 50px;
 }
-
 .faq .container .card ul li {
   float: left;
   width: 100%;
   font-size: 17px;
   color: grey;
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .faq .container .card ul li span {
   color: #2562BA;
   float: left;
@@ -266,10 +204,7 @@
   }
   .serviceShortDesc .container .card {
     width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 10px 0px;
   }
   .serviceShortDesc .container .card .image {
@@ -326,5 +261,4 @@
     font-size: 26px;
     font-weight: 600;
   }
-}
-/*# sourceMappingURL=section.css.map */
+}/*# sourceMappingURL=section.css.map */
